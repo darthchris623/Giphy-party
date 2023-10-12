@@ -1,3 +1,7 @@
+body {
+    background-color: burlywood;
+}
+
 div {
     float: left;
     right: 100px;
