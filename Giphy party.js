@@ -14,6 +14,9 @@ remove.addEventListener('click', function (event) {
 });
 // Event listener for submit button
 submit.addEventListener('click', function (event) {
+    if (input.value === '') {
+        return;
+    }
     event.preventDefault();
     getGiphy(input.value);
     input.value = '';
